@@ -1,5 +1,16 @@
 @charset "UTF-8";
 /*>>>>>>>>>variables====+*/
+/*+=======================+
+VARIABLES GLOBALES
++=======================+*/
+/*Amarillo fondo general*/
+/*naranjo fondo general Boton*/
+/*naranjo texto destacado*/
+/*naranjo valor carta*/
+/*>>>>>>>>>variables====+*/
+/*+=======================+
+Mixins
++=======================+*/
 /*>>>>>>>>>Base general====+*/
 /*reset estilos*/
 * {
@@ -372,7 +383,7 @@ section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio
   width: 78%;
 }
 section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle p.valorproducto {
-  color: #ec3d08;
+  color: #f16115;
 }
 section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .ingredientestabla {
   margin-top: 10px;

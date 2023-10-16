@@ -1,0 +1,8 @@
+/*+=======================+
+Mixins
++=======================+*/
+
+@mixin ajuste-column{
+	display: flex;
+    flex-direction: column;
+}

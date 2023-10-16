@@ -9,7 +9,7 @@ section.banner {
     width: 100%;
     max-width: 1440px;
     display: flex;
-    background-color: #ffb936;
+    background-color: $coloamarillo;
     margin: auto;
     position: relative;
 
@@ -26,8 +26,7 @@ section.banner {
     /*Informacion  contacto*/
     article.txtdato {
       width: 50%;
-      display: flex;
-      flex-direction: column;
+      @include ajuste-column;
       padding: 80px;
       align-content: center;
       justify-content: space-evenly;

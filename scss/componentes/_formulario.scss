@@ -26,7 +26,7 @@ SECCION FORMULARIO
   }
 
   input[type="submit"].customenviar {
-    background: #ec3d08;
+    background: $colorfondoboton; 
     padding: 20px 10px;
     width: 40%;
     border: none;
