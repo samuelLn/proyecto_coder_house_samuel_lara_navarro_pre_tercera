@@ -1,0 +1,67 @@
+/*+=======================+
+SECCION BANNER INFORMATIVO
++=======================+*/
+section.banner {
+  background-color: white;
+  margin: 135px 0px 135px 0px;
+
+  .wrappbaner {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    background-color: #ffb936;
+    margin: auto;
+    position: relative;
+
+    article.imgbanner {
+      width: 50%;
+      padding: 0px;
+
+      .imgba {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    /*Informacion  contacto*/
+    article.txtdato {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding: 80px;
+      align-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .wraappdatoscontacto {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 20px;
+
+        .datoIcono {
+          width: 10%;
+          .contactoicono {
+            width: 60%;
+          }
+        }
+
+        p.textodato {
+          font-size: 20px;
+        }
+      }
+    }
+/*Fin Informacion  contacto*/
+    .imagenfija {
+      position: absolute;
+      width: 25%;
+      right: 0px;
+      bottom: 0px;
+      z-index: 4;
+    }
+  }
+}
+
+/*+=======================+
+FIN SECCION BANNER INFORMATIVO
++=======================+*/

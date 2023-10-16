@@ -1,0 +1,50 @@
+/*+=======================+
+SECCION FORMULARIO
++=======================+*/
+
+.contentform {
+  background-color: #fcfcfc;
+  padding: 0px;
+  text-align: center;
+
+  form.formcustom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input.custominput {
+    border: 3px solid #e0e0e0;
+    background: rgba(217, 217, 217, 0);
+    padding: 10px 20px;
+    margin: 5px;
+  }
+
+  textarea.customtextarea {
+    border: 3px solid #e0e0e0;
+    background: rgba(217, 217, 217, 0);
+    margin: 5px;
+  }
+
+  input[type="submit"].customenviar {
+    background: #ec3d08;
+    padding: 20px 10px;
+    width: 40%;
+    border: none;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+
+  input[type="submit"].customenviar:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+
+
+/*+=======================+
+  FIN SECCION FORMULARIO
+  +=======================+*/

@@ -1,0 +1,41 @@
+/*+=======================+
+PAGINA PRODUCTO
++=======================+*/
+/*pag producto*/
+
+.contentcomunidad.bggeneral {
+  .childcomunidad {
+    .contentimagemcomunidad {
+      .fotoproducto {
+        width: 100%;
+        max-width: 527px;
+      }
+    }
+    .contenttextcomunidad {
+      h3.titulopequeño {
+      }
+      h2.subtutulo.ajustesubtitulo.textpequeno {
+        span.precioproducto {
+          font-size: 40px;
+        }
+      }
+
+      .textComunidad.textonegro {
+        color: #000;
+      }
+
+      /*ajuste texto comunidad*/
+      p.textComunidad.textopequenoblog {
+        color: #000;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+/*+=======================+
+  FIN PAGINA PRODUCTO
+  +=======================+*/

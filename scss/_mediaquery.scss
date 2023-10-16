@@ -1,0 +1,612 @@
+/*+=======================+
+SECCION medias querys custom
++=======================+*/
+
+/*+===TABLET====+*/
+/*Formato tablet mediun 1400 PX*/
+@media (max-width: 1400px) {
+
+
+/*Somos contenido*/
+.contentcomunidad{
+  .childcomunidad{
+    article.contentimagemcomunidad{
+      .comunidadfoto{
+      width: 100%;
+      height: auto;
+      }
+    }
+    article.contenttextcomunidad{}
+  }
+}
+/*fin Somos contenido*/
+/*Contenido tarjetas*/
+.productos{
+  .mensajeninicio{}
+  .contentetarjetas.container{
+    .row{
+      .wrapptarjeta{width: auto;}
+    }
+  }
+  .contentbtnproducto{}
+}
+/*Contenido tarjetas*/
+}
+/*Formato tablet small  992px*/
+@media (max-width: 992px) {
+  /* portada inicio*/
+
+  .childwrapp {
+    .bgrayossol {
+      scale: 2;
+      .rayossolo {
+        margin-top: -84px !important;
+      }
+    }
+
+    .contentwrapp {
+      background-color: rgba(255, 255, 255, 0);
+      padding: 10px !important;
+      max-width: 1440px;
+
+      .contentportada {
+        background: rgba(255, 255, 255, 0);
+        .textoportada {
+          h1.totituloprincipal {
+            font-size: 30px;
+          }
+          h2.hatag {
+            font-size: 30px !important;
+          }
+          h2.subtutulo {
+            font-size: 30px !important;
+          }
+          a.btn1 {
+            p.texbtn {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+      .contentimgpizza {
+        background: rgba(0, 128, 0, 0);
+      }
+    }
+  }
+ /* fin portada inicio*/
+
+  /*Seccion SOMOS*/
+
+  /*portada general*/
+  section.portada.ajustepórtada{
+  
+  .childwrapp{
+    .contentwrapp.ajustewrapp{
+      .contentportada.ajustegeneral{
+        .textoportada.ajustepagegeneral{
+          .totituloprincipal{}
+          .subtutulo ajustesubtitulo{}
+          a.btn1{
+            width: 30%;
+            margin: auto;
+            
+          }
+        }
+      }
+    }
+  }
+
+}
+
+ /*fin portada general*/
+
+/*Seccion SOMOS*/
+  section.contentcomunidad{
+    .childcomunidad{
+    .contentimagemcomunidad{
+      .comunidadfoto{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .contenttextcomunidad{
+      .titulopequeño{}
+      .subtutulo.ajustesubtitulo.textpequeno{}
+      p.textComunidad{}
+      p.textComunidadDestacdo{margin-top: 20px}
+      a{
+        p.texbtn.ajustehablemos{margin-top: 10px;
+        width: 60%;}
+      }
+    } 
+  
+  }
+  }
+/*fin Seccion SOMOS*/
+
+/*Tarjeta producto*/
+.productos{
+  .mensajeninicio{}
+  .contentetarjetas.container{ width: 100%; max-width: 100%; }
+  .contentbtnproducto{
+    a{p.texbtn{
+      width: 60% !important;
+    }}
+  }
+}
+
+
+/*Fin Tarjeta producto*/
+
+
+}
+
+/*+===MOBILE====+*/
+@media (max-width: 768px) {
+  /*header*/
+  header {
+    height: auto;
+    .contenmenu {
+      width: 100%;
+      max-width: 100%;
+      .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .childlogotop {
+          text-align: center;
+          width: 100%;
+          .logotop {
+            width: 30%;
+          }
+        }
+
+        .childmenuheader {
+          /*Menu desktop*/
+          .navmain {
+            justify-content: center;
+            display: none;
+            ul.childmenu {
+              width: 100%;
+              li.item {
+              }
+            }
+          }
+
+          /*menu movil*/
+          .movilcustom {
+            display: block;
+
+            .container-fluid {
+              justify-content: center;
+
+              .navbar-toggler {
+                border: black solid 2px;
+                margin: 10px 0px;
+              }
+
+              .navbar-collapse {
+                background-color: rgba(255, 255, 255, 0);
+                padding: 10px;
+                border: solid 2px rgba(0, 0, 0, 0.251);
+              }
+            }
+          }
+          /*fin menu movil*/
+        }
+
+        /*Estilo contenedor top RSS*/
+        .contenrss {
+          justify-content: center;
+        }
+        /*FIN Estilo contenedor top RSS*/
+      }
+    }
+  }
+  /*Fin Header*/
+
+  /*+===============================================================+*/
+
+  /*Portada inicio*/
+  section.portada {
+    height: auto;
+    padding: 50px;
+
+    /*contnenedor interio general*/
+    .childwrapp {
+      width: 100%;
+      max-width: 100%;
+      /*================ inicio  Fondo portada==============*/
+      .bgrayossol {
+        position: absolute;
+        scale: 5;
+        .rayossolo {
+          margin-top: 10px !important;
+        }
+      }
+
+      .bgassetongredientes {
+        position: absolute;
+        padding: 0px;
+        display: none;
+        .ingredientes {
+        }
+      }
+      /*================ fin  Fondo portada==============*/
+
+      /*================ Inicio contenido portda==============*/
+      .contentwrapp {
+        position: relative;
+        height: auto;
+        padding: 0px;
+
+        .contentportada {
+          width: 100%;
+          display: block;
+          .textoportada {
+            text-align: center;
+            h1.totituloprincipal {
+              color: rgb(0, 0, 0);
+            }
+            h2.hatag {
+              line-height: normal;
+              color: rgb(0, 0, 0);
+            }
+            .textogeneral {
+              font-size: 12px;
+            }
+            .btn1 {
+              align-items: center;
+              .texbtn {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .contentimgpizza {
+          width: 100%;
+          .pizzaimg {
+            width: 100%;
+          }
+        }
+      }
+    } /*fin contnenedor interio general*/
+  } /*fin portada*/
+
+  /*+============================+ Seccion producto inicio +============================+*/
+
+  section.productos {
+    padding: 50px;
+
+    .mensajeninicio {
+      h3.beforetitulo {
+        margin-top: 0px;
+      }
+      h2.titulosecion {
+      }
+      p.bajadatitulo {
+        width: 100%;
+      }
+    }
+
+    .contentetarjetas.container {
+      padding: 20px;
+      .row {
+        .wrapptarjeta {
+          width: 100%;
+        }
+      }
+    }
+
+    .contentbtnproducto {
+      a {
+        p.texbtn {
+          width: 60%;
+        }
+      }
+    }
+  }
+
+  /*Seccion carta de precios*/
+  section.cartaprecios {
+    margin-top: 0px;
+
+    .childprecios {
+      width: 100%;
+      max-width: 100%;
+      padding: 50px 10px;
+
+      .row {
+        flex-direction: column;
+        .imageningredientes {
+          width: 100%;
+          .imageningredientes {
+            width: 100%;
+          }
+        }
+        .listadoprecios {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /*fin Seccion carta de precios*/
+
+  /*INICIO GALERIA*/
+  .galeria {
+    padding: 0px;
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  /*FIN GALERIA*/
+
+  /*banner infornmativo inicio*/
+
+  section.banner {
+    .wrappbaner {
+      .row {
+        flex-direction: column;
+        article.imgbanner {
+          width: 100%;
+          padding: 0px;
+        }
+
+        article.txtdato {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /*FIN banner infornmativo inicio*/
+
+  /*pagina somos*/
+
+  .contentcomunidad{
+      .childcomunidad{
+       width: 100%;
+       max-width: 100%;
+       padding: 50px; 
+       flex-direction: column;
+      article.contentimagemcomunidad{
+      width: 100%;
+      .comunidadfoto{
+      width: 100%;
+      height: auto;
+      }
+    }
+      article.contenttextcomunidad{
+      width: 100%;
+      text-align: center;
+      a{ 
+      p.texbtn.ajustehablemos{
+        width: 60%;
+        margin: auto;
+
+      }}
+    }
+    }
+  }
+
+/*fin pagina somos*/
+
+/*banner datas contacto general*/
+
+section.banner.bannerpequeno {
+  margin: 20px;
+  .wrappbaner.ajsutedatoscontacto{
+    width: 100%;
+    article.txtdato.ajustedatogeneral{ 
+      flex-direction: column !important;
+      
+    }
+  }
+}
+/*fin banner datas contacto general*/
+
+ 
+
+
+/*AJUSTE CONTACTO*/
+ .wraappdatoscontacto {
+    margin: 10px 0px;
+  }
+
+  /*footer movil 768*/
+  footer {
+    height: auto;
+    .contenmenufooter {
+      .childlogobottomfooter {
+        text-align: center;
+
+        .logofooter {
+          width: 50%;
+        }
+      }
+
+      .contenrssfooter {
+        justify-content: center;
+      }
+    }
+  }
+}
+/*Mobile 567 px*/
+@media (max-width: 576px) {
+  /*Inicio portada*/
+
+  section.portada {
+    .childwrapp {
+      .bgrayossol {
+        scale: 4;
+      }
+
+      .bgassetongredientes {
+        display: none;
+      }
+
+      .contentwrapp {
+        .contentportada {
+          .textoportada {
+            h1.totituloprincipal {
+              font-size: 38px;
+              line-height: normal;
+            }
+            h2.hatag {
+              font-size: 38px;
+              line-height: normal;
+            }
+
+            .btn1 {
+              p.texbtn {
+                margin-top: 10px !important;
+              }
+            }
+          }
+        }
+
+        .contentimgpizza {
+          img.pizzaimg {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  /*seccion productos*/
+
+  section.productos {
+    padding: 10px;
+    .mensajeninicio {
+      .beforetitulo {
+        margin-top: 0px;
+      }
+
+      .titulosecion {
+        font-size: 48px;
+      }
+    }
+
+    /*seccion tarjetas productos*/
+    .contentetarjetas {
+      margin-top: 10px;
+      .row {
+        .wrapptarjeta {
+          margin: 10px 0px;
+        }
+      }
+    }
+    .contentbtnproducto {
+    }
+  }
+
+  /*seccion precios*/
+  section.cartaprecios {
+    margin-top: 20px;
+    .listadoprecios {
+      padding: 0px 20px;
+    }
+  }
+  /*fin seccion precios*/
+
+  /**seccion informativa*/
+
+  section.banner {
+    margin: 0px 0px 50px 0px;
+    .wrappbaner {
+      .row {
+        article.txtdato {
+          padding: 30px 30px;
+        }
+      }
+    }
+  }
+  /**fin seccion informativa*/
+
+section.contentcomunidad{
+  .childcomunidad {
+    padding: 30px 30px;
+
+    article.contentimagemcomunidad{padding: 0px;}
+  }
+}
+/*pag somos seccion informativa*/
+
+
+  
+
+  /*seccion datos contacto*/
+  article.txtdato.ajustedatogeneral {
+    padding: 20px;
+  }
+
+section.banner.bannerpequeno{
+  .wrappbaner.ajsutedatoscontacto{
+    article.txtdato.ajustedatogeneral{padding: 10px 10px !important;}
+  }
+}
+
+  /*seccion contacto*/
+  input[type="submit"].customenviar {
+    width: 90%;
+    margin: auto;
+  }
+}
+/*Mobile 480*/
+@media (max-width: 480px) {
+  /*header menu*/
+  .contenmenu {
+    padding: 30px 10px;
+    ul.childmenu {
+      padding: 0px;
+    }
+  }
+  
+
+  /*fin header mnenu*/
+
+  /*seccion portada*/
+  section.portada {
+    padding: 20px 50px;
+  }
+  /*fin seccion portada*/
+
+  /*Seccion producto*/
+  section.productos {
+    width: 100%;
+    padding: 30px;
+  }
+  /*fin Seccion producto*/
+
+  /*seccion precios*/
+  .childprecios {
+    padding: 30px 30px;
+  }
+}
+/*Mobile 380*/
+@media (max-width: 380px) {
+  .contenmenu.container {
+    padding: 20px 0px;
+  }
+
+  h2.titulosecion {
+    font-size: 30px;
+  }
+  section.productos {
+    padding: 20px;
+  }
+  hr.lineaprecio {
+    width: 50%;
+  }
+  .nombreproducto,
+  .valorproducto {
+    margin: 0px;
+  }
+}
+/*+=======================+
+  Fin SECCION medias querys custom
+  +=======================+*/

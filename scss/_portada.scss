@@ -1,0 +1,111 @@
+/*+=======================+
+SECCION PORTADA
++=======================+*/
+
+section.portada {
+  background-color: #ffb936;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+
+  .childwrapp {
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    margin: auto;
+    height: auto;
+
+    .bgrayossol {
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      overflow: hidden;
+      .rayossolo {
+        margin-top: -300px;
+        animation: rotacion_resplandor 20s infinite linear; /*aniamacion rayo de sol*/
+      }
+    }
+
+    .bgassetongredientes {
+      padding: 120px;
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+
+      .ingredientes {
+      }
+    }
+
+    .contentwrapp {
+      display: flex;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 700px;
+      padding: 30px 80px;
+      z-index: 4;
+
+      /*Estilo contenido portdas*/
+      .contentportada {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+
+        .textoportada {
+          h1.totituloprincipal {
+          }
+          h2.hatag {
+            font-size: 48px;
+            line-height: 20px;
+          }
+
+          .textogeneral {
+            font-size: 16px;
+          }
+          .btn1 {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .texbtn {
+              margin-top: 30px;
+              color: white;
+              background-color: #ec3d08;
+              text-align: center;
+              padding: 15px 10px;
+              width: 40%;
+              text-transform: uppercase;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .contentimgpizza {
+        width: 40%;
+        text-align: center;
+
+        .pizzaimg {
+          width: 100%;
+        }
+      }
+    }
+
+    .contentwrapp.ajustewrapp {
+      height: auto;
+    }
+  }
+}
+
+/*Fin Estilo contenido portdas*/
+
+/*+=======================+
+  FIN SECCION PORTADA
+  +=======================+*/

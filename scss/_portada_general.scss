@@ -1,0 +1,38 @@
+/*+=======================+
+SECCION PORTADA GENERAL
++=======================+*/
+
+.portada.ajustepórtada {
+  .childwrapp {
+    .contentwrapp.ajustewrapp {
+      .contentportada.ajustegeneral {
+        width: 100%;
+
+        .textoportada.ajustepagegeneral {
+          width: 100%;
+          h1.totituloprincipal {
+          }
+          h2.subtutulo.ajustesubtitulo {
+          }
+          a.btn1 {
+            p.texbtn.ajustebtnportada {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+              margin: auto;
+              text-align: center;
+              width: 15%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*+=======================+
+FIN SECCION PORTADA GENERAL
++=======================+*/

@@ -1,0 +1,1195 @@
+@charset "UTF-8";
+/*>>>>>>>>>variables====+*/
+/*>>>>>>>>>Base general====+*/
+/*reset estilos*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*Fin reset estilos*/
+/*+=======================+
+  ESTILOS GENERRALES
+  +=======================+*/
+body {
+  background: rgb(255, 255, 255);
+  width: 100%;
+}
+body main {
+  width: 100%;
+  background-color: white;
+}
+body main h1,
+body main h2,
+body main h3,
+body main h4,
+body main h5,
+body main h6 {
+  color: black;
+  font-size: 64px;
+  font-family: "Bebas Neue", sans-serif;
+}
+body main p {
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+body main img {
+  width: 100%;
+}
+body main a {
+  text-decoration: none;
+  color: black;
+}
+body main a:hover {
+  opacity: 0.7;
+}
+
+/*+=======================+
+  FIN ESTILOS GENERRALES
+  +=======================+*/
+/*>>>>>>>>>Estructrura====+*/
+/*+=======================+
+SECCION HEADER
++=======================+*/
+header {
+  background-color: #ffb936;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  /*Estilos menu principoal Desktop*/
+  /* Fin estilos menu principoal Desktop*/
+}
+header .contenmenu {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 80px;
+  align-items: center;
+  /*contenedor logo*/
+  /*contenedor menu principal*/
+  /*FIN Estilo movil menu*/
+  /*Estilos zona rrss top*/
+  /*Fin Estilos zona rrss top*/
+}
+header .contenmenu .childlogotop {
+  /*Estilo logo top header*/
+  /*Fin estilo logo top header*/
+}
+header .contenmenu .childlogotop .logotop {
+  width: 60%;
+}
+header .contenmenu .childmenuheader {
+  /*menu main*/
+  /*fin contenedor menu principal*/
+  /*Estilo movil menu*/
+  /*Fin Estilo movil menu*/
+}
+header .contenmenu .childmenuheader .navmain {
+  display: flex;
+  justify-content: flex-end;
+}
+header .contenmenu .childmenuheader .navmain ul.childmenu {
+  list-style: none;
+  display: flex;
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  align-items: center;
+  margin: 0px;
+}
+header .contenmenu .childmenuheader .navmain ul.childmenu li.item {
+  padding: 5px;
+  letter-spacing: 1px;
+}
+header .contenmenu .childmenuheader .navmain ul.childmenu li.item a {
+  text-decoration: none;
+  color: black;
+}
+header .contenmenu .childmenuheader .movilcustom {
+  display: none;
+}
+header .contenmenu .contenrss {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  justify-content: flex-end;
+}
+header .contenmenu .contenrss .childrss {
+  margin-left: 10px;
+}
+header .contenmenu .contenrss .childrss .iconorss {
+  width: 22px;
+}
+
+/*+=======================+
+  FIN SECCION HEADER
+  +=======================+*/
+/*>>>>>>>>>Componetes====+*/
+/*+=======================+
+SECCION PORTADA
++=======================+*/
+section.portada {
+  background-color: #ffb936;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+section.portada .childwrapp {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  margin: auto;
+  height: auto;
+}
+section.portada .childwrapp .bgrayossol {
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
+section.portada .childwrapp .bgrayossol .rayossolo {
+  margin-top: -300px;
+  animation: rotacion_resplandor 20s infinite linear; /*aniamacion rayo de sol*/
+}
+section.portada .childwrapp .bgassetongredientes {
+  padding: 120px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+section.portada .childwrapp .contentwrapp {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding: 30px 80px;
+  z-index: 4;
+  /*Estilo contenido portdas*/
+}
+section.portada .childwrapp .contentwrapp .contentportada {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+section.portada .childwrapp .contentwrapp .contentportada .textoportada h2.hatag {
+  font-size: 48px;
+  line-height: 20px;
+}
+section.portada .childwrapp .contentwrapp .contentportada .textoportada .textogeneral {
+  font-size: 16px;
+}
+section.portada .childwrapp .contentwrapp .contentportada .textoportada .btn1 {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+section.portada .childwrapp .contentwrapp .contentportada .textoportada .btn1 .texbtn {
+  margin-top: 30px;
+  color: white;
+  background-color: #ec3d08;
+  text-align: center;
+  padding: 15px 10px;
+  width: 40%;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+section.portada .childwrapp .contentwrapp .contentimgpizza {
+  width: 40%;
+  text-align: center;
+}
+section.portada .childwrapp .contentwrapp .contentimgpizza .pizzaimg {
+  width: 100%;
+}
+section.portada .childwrapp .contentwrapp.ajustewrapp {
+  height: auto;
+}
+
+/*Fin Estilo contenido portdas*/
+/*+=======================+
+  FIN SECCION PORTADA
+  +=======================+*/
+/*+=======================+
+SECCION PORTADA GENERAL
++=======================+*/
+.portada.ajustepórtada .childwrapp .contentwrapp.ajustewrapp .contentportada.ajustegeneral {
+  width: 100%;
+}
+.portada.ajustepórtada .childwrapp .contentwrapp.ajustewrapp .contentportada.ajustegeneral .textoportada.ajustepagegeneral {
+  width: 100%;
+}
+.portada.ajustepórtada .childwrapp .contentwrapp.ajustewrapp .contentportada.ajustegeneral .textoportada.ajustepagegeneral a.btn1 p.texbtn.ajustebtnportada {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: auto;
+  text-align: center;
+  width: 15%;
+}
+
+/*+=======================+
+FIN SECCION PORTADA GENERAL
++=======================+*/
+/*+=======================+
+SECCION TARJETAS PRODUCTOS
++=======================+*/
+section.productos {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  /*Seccion mensaje inicio*/
+  /*Fin Seccion mensaje inicio*/
+  /*Seccion tarjetas productos*/
+  /*Fin Seccion tarjetas productos*/
+  /*Seccion boton ver mas*/
+  /*fin Seccion boton ver mas*/
+}
+section.productos .mensajeninicio {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+section.productos .mensajeninicio .beforetitulo {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+section.productos .mensajeninicio .bajadatitulo {
+  font-size: 20px;
+  color: #848383;
+  width: 60%;
+  margin: auto;
+}
+section.productos .contentetarjetas {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 80px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+section.productos .contentetarjetas .wrapptarjeta {
+  background-color: #f8f8f8;
+  width: 320px;
+  padding: 80px 10px;
+  margin: 10px 20px;
+}
+section.productos .contentetarjetas .wrapptarjeta .imgenproducto {
+  width: 100%;
+  max-width: 250px;
+}
+section.productos .contentetarjetas .wrapptarjeta h2.description {
+  font-size: 24px;
+}
+section.productos .contentetarjetas .wrapptarjeta h2.description span.precio {
+  color: #8c8b8b;
+}
+section.productos .contentetarjetas .wrapptarjeta .estrellas {
+  width: 100%;
+  max-width: 100px;
+}
+section.productos article.contentbtnproducto {
+  text-align: center;
+  padding: 40px 10px;
+}
+section.productos article.contentbtnproducto a .texbtn {
+  margin: auto;
+  width: 10%;
+  color: whitesmoke;
+  background-color: #ec3d08;
+  text-align: center;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*+=======================+
+FIN SECCION TARJETAS PRODUCTOS
++=======================+*/
+/*+=======================+
+SECCION CARTA DE PRECIOS
++=======================+*/
+section.cartaprecios {
+  background-color: #fcfcfc;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+section.cartaprecios .childprecios {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  margin: auto;
+  padding: 80px 80px;
+}
+section.cartaprecios .childprecios .imageningredientes {
+  width: 45%;
+}
+section.cartaprecios .childprecios .listadoprecios {
+  width: 55%;
+  padding: 0px 50px;
+}
+section.cartaprecios .childprecios .listadoprecios .titulcarta {
+  font-size: 48px;
+}
+section.cartaprecios .childprecios .listadoprecios .titulcarta .hastagprecio {
+  color: #f16115;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio {
+  display: block;
+  margin-top: 25px;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle {
+  display: flex;
+  /*background-color: aquamarine;*/
+  align-items: center;
+  justify-content: space-between;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle p.nombreproducto,
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle p.valorproducto {
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle hr.lineaprecio {
+  height: 2px;
+  background-color: black;
+  width: 78%;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .preciodetalle p.valorproducto {
+  color: #ec3d08;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .ingredientestabla {
+  margin-top: 10px;
+}
+section.cartaprecios .childprecios .listadoprecios .cuadrodeprecios .celdaprecio .ingredientestabla p.descriptionprecios {
+  font-size: 16px;
+  color: #848383;
+}
+
+/*.cuadrodeprecios {
+  }*/
+/*+=======================+
+  FIN SECCION CARTA DE PRECIOS
+  +=======================+*/
+/*+=======================+
+SECCION GALERIA GRID 
++=======================+*/
+.galeria {
+  width: 100%;
+  padding: 10px;
+}
+.galeria .grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+.galeria .grid-container .itemimg .img-galeria {
+  width: 100%;
+}
+
+/*+=======================+
+  FIN SECCION GALERIA GRID 
+  +=======================+*/
+/*+=======================+
+SECCION BANNER INFORMATIVO
++=======================+*/
+section.banner {
+  background-color: white;
+  margin: 135px 0px 135px 0px;
+}
+section.banner .wrappbaner {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  background-color: #ffb936;
+  margin: auto;
+  position: relative;
+  /*Informacion  contacto*/
+  /*Fin Informacion  contacto*/
+}
+section.banner .wrappbaner article.imgbanner {
+  width: 50%;
+  padding: 0px;
+}
+section.banner .wrappbaner article.imgbanner .imgba {
+  width: 100%;
+  height: 100%;
+}
+section.banner .wrappbaner article.txtdato {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section.banner .wrappbaner article.txtdato .wraappdatoscontacto {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+section.banner .wrappbaner article.txtdato .wraappdatoscontacto .datoIcono {
+  width: 10%;
+}
+section.banner .wrappbaner article.txtdato .wraappdatoscontacto .datoIcono .contactoicono {
+  width: 60%;
+}
+section.banner .wrappbaner article.txtdato .wraappdatoscontacto p.textodato {
+  font-size: 20px;
+}
+section.banner .wrappbaner .imagenfija {
+  position: absolute;
+  width: 25%;
+  right: 0px;
+  bottom: 0px;
+  z-index: 4;
+}
+
+/*+=======================+
+FIN SECCION BANNER INFORMATIVO
++=======================+*/
+/*INIO SECCION CONTACTO PEQUEÑA GENERAL*/
+section.banner.bannerpequeno {
+  margin: 75px 0px;
+}
+section.banner.bannerpequeno div.wrappbaner.ajsutedatoscontacto {
+  background-color: white;
+}
+section.banner.bannerpequeno div.wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 80px;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section.banner.bannerpequeno div.wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral .wraappdatoscontacto .datoIcono-general {
+  width: 7%;
+}
+section.banner.bannerpequeno div.wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral .wraappdatoscontacto .textdato-general {
+  font-size: 20px;
+}
+section.banner.bannerpequeno div.wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral .wraappdatoscontacto .textdato-general p.textodato {
+  margin: 0px 0px 0px 10px;
+}
+
+/*INIO SECCION CONTACTO PEQUEÑA GENERAL*/
+/*+=======================+
+SECCION FORMULARIO
++=======================+*/
+.contentform {
+  background-color: #fcfcfc;
+  padding: 0px;
+  text-align: center;
+}
+.contentform form.formcustom {
+  display: flex;
+  flex-direction: column;
+}
+.contentform input.custominput {
+  border: 3px solid #e0e0e0;
+  background: rgba(217, 217, 217, 0);
+  padding: 10px 20px;
+  margin: 5px;
+}
+.contentform textarea.customtextarea {
+  border: 3px solid #e0e0e0;
+  background: rgba(217, 217, 217, 0);
+  margin: 5px;
+}
+.contentform input[type=submit].customenviar {
+  background: #ec3d08;
+  padding: 20px 10px;
+  width: 40%;
+  border: none;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin: 5px;
+  margin-top: 20px;
+}
+.contentform input[type=submit].customenviar:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/*+=======================+
+  FIN SECCION FORMULARIO
+  +=======================+*/
+/*>>>>>>>>>Secciones====+*/
+/*+=======================+
+PAGINA SOMOS
++=======================+*/
+.contentcomunidad P.textComunidadDestacdo {
+  color: #f16115;
+  font-family: Bebas Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 60px;
+}
+
+.banner bannerpequeno img.imagenBanergeneral {
+  width: 100%;
+}
+
+/*+=======================+
+INICIO PAGINA SOMOS
++=======================+*/
+/*+=======================+
+PAGINA SECCION COMUNIDAD
++=======================+*/
+/*pots*/
+.contentcomunidad {
+  width: 100%;
+}
+.contentcomunidad .childcomunidad {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 80px;
+}
+.contentcomunidad .childcomunidad article.contentimagemcomunidad {
+  width: 50%;
+  padding: 50px;
+  text-align: right;
+}
+.contentcomunidad .childcomunidad article.contentimagemcomunidad .comunidadfoto {
+  width: 519px;
+  height: 616px;
+  flex-shrink: 0;
+}
+.contentcomunidad .childcomunidad article.contenttextcomunidad {
+  width: 50%;
+  padding: 50px 0px;
+}
+.contentcomunidad .childcomunidad article.contenttextcomunidad h3.titulopequeño {
+  font-size: 20px;
+}
+.contentcomunidad .childcomunidad article.contenttextcomunidad .subtutulo.ajustesubtitulo.textpequeno {
+  font-size: 55px;
+}
+.contentcomunidad .childcomunidad article.contenttextcomunidad p.textComunidad {
+  color: #848383;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.contentcomunidad .childcomunidad article.contenttextcomunidad a p.texbtn.ajustehablemos {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 22%;
+  margin-top: 100px;
+  background-color: #ec3d08;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+/*+=======================+
+  FIN PAGINA COMUNIDAD
+  +=======================+*/
+/*+=======================+
+PAGINA PRODUCTO
++=======================+*/
+/*pag producto*/
+.contentcomunidad.bggeneral .childcomunidad .contentimagemcomunidad .fotoproducto {
+  width: 100%;
+  max-width: 527px;
+}
+.contentcomunidad.bggeneral .childcomunidad .contenttextcomunidad {
+  /*ajuste texto comunidad*/
+}
+.contentcomunidad.bggeneral .childcomunidad .contenttextcomunidad h2.subtutulo.ajustesubtitulo.textpequeno span.precioproducto {
+  font-size: 40px;
+}
+.contentcomunidad.bggeneral .childcomunidad .contenttextcomunidad .textComunidad.textonegro {
+  color: #000;
+}
+.contentcomunidad.bggeneral .childcomunidad .contenttextcomunidad p.textComunidad.textopequenoblog {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*+=======================+
+  FIN PAGINA PRODUCTO
+  +=======================+*/
+/*+=======================+
+PAGINA Contacto
++=======================+*/
+.contentcomunidad .contentimagemcomunidad img.mapaimg {
+  width: 100%;
+  margin-top: 10%;
+}
+
+/*+=======================+
+fin PAGINA Contacto
++=======================+*/
+/*>>>>>>>>>Estructrura====+*/
+/*+=======================+
+SECCION FOOTER
++=======================+*/
+footer {
+  background-color: #ffb936;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+}
+footer .contenmenufooter {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 80px;
+  align-items: center;
+  box-sizing: border-box;
+}
+footer .contenmenufooter .childlogobottomfooter {
+  background-color: rgba(255, 0, 0, 0);
+}
+footer .contenmenufooter .childlogobottomfooter .logofooter {
+  width: 10%;
+}
+footer .contenmenufooter .contenrssfooter {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  justify-content: flex-end;
+}
+footer .contenmenufooter .contenrssfooter .childrssfooter {
+  margin-left: 10px;
+}
+footer .contenmenufooter .contenrssfooter .childrssfooter .iconorssfooter {
+  width: 22px;
+}
+
+/*.contenmenufooter {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 80px;
+    align-items: center;
+    box-sizing: border-box;
+}*/
+/*+=======================+
+  FIN SECCION FOOTER
+  +=======================+*/
+/*>>>>>>>>>Eestilos de aytuda====+*/
+/*+=======================+
+SECCION ESTILOS DE AYUDA
++=======================+*/
+.bggeneral {
+  background-color: #ffb936;
+}
+
+.productos.bggeneral {
+  background-color: #ffb936;
+}
+
+.textComunidad.textonegro {
+  color: #000;
+}
+
+/*secciones generales*/
+/*section.portada.ajustepórtada {
+  height: 300px;
+}*/
+/*div.contentwrapp.ajustewrapp {
+  height: 300px;
+}*/
+div.contentportada.ajustegeneral {
+  width: 100%;
+  text-align: center;
+}
+
+h2.subtutulo.ajustesubtitulo {
+  font-size: 48px;
+}
+
+/*+=======================+
+FIN SECCION ESTILOS DE AYUDA
++=======================+*/
+/*>>>>>>>>>Eestilos animacion====+*/
+/*+=======================+
+ANIMACIONES CSS
++=======================+*/
+@keyframes rotacion_resplandor {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*animation: rotacion_resplandor 5s infinite linear; /* 5s es la duración de una rotación completa */
+/*>>>>>>>>>MediaQuerys====+*/
+/*+=======================+
+SECCION medias querys custom
++=======================+*/
+/*+===TABLET====+*/
+/*Formato tablet mediun 1400 PX*/
+@media (max-width: 1400px) {
+  /*Somos contenido*/
+  .contentcomunidad .childcomunidad article.contentimagemcomunidad .comunidadfoto {
+    width: 100%;
+    height: auto;
+  }
+  /*fin Somos contenido*/
+  /*Contenido tarjetas*/
+  .productos .contentetarjetas.container .row .wrapptarjeta {
+    width: auto;
+  }
+  /*Contenido tarjetas*/
+}
+/*Formato tablet small  992px*/
+@media (max-width: 992px) {
+  /* portada inicio*/
+  .childwrapp .bgrayossol {
+    scale: 2;
+  }
+  .childwrapp .bgrayossol .rayossolo {
+    margin-top: -84px !important;
+  }
+  .childwrapp .contentwrapp {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px !important;
+    max-width: 1440px;
+  }
+  .childwrapp .contentwrapp .contentportada {
+    background: rgba(255, 255, 255, 0);
+  }
+  .childwrapp .contentwrapp .contentportada .textoportada h1.totituloprincipal {
+    font-size: 30px;
+  }
+  .childwrapp .contentwrapp .contentportada .textoportada h2.hatag {
+    font-size: 30px !important;
+  }
+  .childwrapp .contentwrapp .contentportada .textoportada h2.subtutulo {
+    font-size: 30px !important;
+  }
+  .childwrapp .contentwrapp .contentportada .textoportada a.btn1 p.texbtn {
+    width: 100% !important;
+  }
+  .childwrapp .contentwrapp .contentimgpizza {
+    background: rgba(0, 128, 0, 0);
+  }
+  /* fin portada inicio*/
+  /*Seccion SOMOS*/
+  /*portada general*/
+  section.portada.ajustepórtada .childwrapp .contentwrapp.ajustewrapp .contentportada.ajustegeneral .textoportada.ajustepagegeneral a.btn1 {
+    width: 30%;
+    margin: auto;
+  }
+  /*fin portada general*/
+  /*Seccion SOMOS*/
+  section.contentcomunidad .childcomunidad .contentimagemcomunidad .comunidadfoto {
+    width: 100%;
+    height: auto;
+  }
+  section.contentcomunidad .childcomunidad .contenttextcomunidad p.textComunidadDestacdo {
+    margin-top: 20px;
+  }
+  section.contentcomunidad .childcomunidad .contenttextcomunidad a p.texbtn.ajustehablemos {
+    margin-top: 10px;
+    width: 60%;
+  }
+  /*fin Seccion SOMOS*/
+  /*Tarjeta producto*/
+  .productos .contentetarjetas.container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .productos .contentbtnproducto a p.texbtn {
+    width: 60% !important;
+  }
+  /*Fin Tarjeta producto*/
+}
+/*+===MOBILE====+*/
+@media (max-width: 768px) {
+  /*header*/
+  header {
+    height: auto;
+  }
+  header .contenmenu {
+    width: 100%;
+    max-width: 100%;
+  }
+  header .contenmenu .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Estilo contenedor top RSS*/
+    /*FIN Estilo contenedor top RSS*/
+  }
+  header .contenmenu .row .childlogotop {
+    text-align: center;
+    width: 100%;
+  }
+  header .contenmenu .row .childlogotop .logotop {
+    width: 30%;
+  }
+  header .contenmenu .row .childmenuheader {
+    /*Menu desktop*/
+    /*menu movil*/
+    /*fin menu movil*/
+  }
+  header .contenmenu .row .childmenuheader .navmain {
+    justify-content: center;
+    display: none;
+  }
+  header .contenmenu .row .childmenuheader .navmain ul.childmenu {
+    width: 100%;
+  }
+  header .contenmenu .row .childmenuheader .movilcustom {
+    display: block;
+  }
+  header .contenmenu .row .childmenuheader .movilcustom .container-fluid {
+    justify-content: center;
+  }
+  header .contenmenu .row .childmenuheader .movilcustom .container-fluid .navbar-toggler {
+    border: black solid 2px;
+    margin: 10px 0px;
+  }
+  header .contenmenu .row .childmenuheader .movilcustom .container-fluid .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.251);
+  }
+  header .contenmenu .row .contenrss {
+    justify-content: center;
+  }
+  /*Fin Header*/
+  /*+===============================================================+*/
+  /*Portada inicio*/
+  section.portada {
+    height: auto;
+    padding: 50px;
+    /*contnenedor interio general*/
+    /*fin contnenedor interio general*/
+  }
+  section.portada .childwrapp {
+    width: 100%;
+    max-width: 100%;
+    /*================ inicio  Fondo portada==============*/
+    /*================ fin  Fondo portada==============*/
+    /*================ Inicio contenido portda==============*/
+  }
+  section.portada .childwrapp .bgrayossol {
+    position: absolute;
+    scale: 5;
+  }
+  section.portada .childwrapp .bgrayossol .rayossolo {
+    margin-top: 10px !important;
+  }
+  section.portada .childwrapp .bgassetongredientes {
+    position: absolute;
+    padding: 0px;
+    display: none;
+  }
+  section.portada .childwrapp .contentwrapp {
+    position: relative;
+    height: auto;
+    padding: 0px;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada {
+    width: 100%;
+    display: block;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada {
+    text-align: center;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada h1.totituloprincipal {
+    color: rgb(0, 0, 0);
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada h2.hatag {
+    line-height: normal;
+    color: rgb(0, 0, 0);
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada .textogeneral {
+    font-size: 12px;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada .btn1 {
+    align-items: center;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada .btn1 .texbtn {
+    width: 100%;
+  }
+  section.portada .childwrapp .contentwrapp .contentimgpizza {
+    width: 100%;
+  }
+  section.portada .childwrapp .contentwrapp .contentimgpizza .pizzaimg {
+    width: 100%;
+  }
+  /*fin portada*/
+  /*+============================+ Seccion producto inicio +============================+*/
+  section.productos {
+    padding: 50px;
+  }
+  section.productos .mensajeninicio h3.beforetitulo {
+    margin-top: 0px;
+  }
+  section.productos .mensajeninicio p.bajadatitulo {
+    width: 100%;
+  }
+  section.productos .contentetarjetas.container {
+    padding: 20px;
+  }
+  section.productos .contentetarjetas.container .row .wrapptarjeta {
+    width: 100%;
+  }
+  section.productos .contentbtnproducto a p.texbtn {
+    width: 60%;
+  }
+  /*Seccion carta de precios*/
+  section.cartaprecios {
+    margin-top: 0px;
+  }
+  section.cartaprecios .childprecios {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 10px;
+  }
+  section.cartaprecios .childprecios .row {
+    flex-direction: column;
+  }
+  section.cartaprecios .childprecios .row .imageningredientes {
+    width: 100%;
+  }
+  section.cartaprecios .childprecios .row .imageningredientes .imageningredientes {
+    width: 100%;
+  }
+  section.cartaprecios .childprecios .row .listadoprecios {
+    width: 100%;
+  }
+  /*fin Seccion carta de precios*/
+  /*INICIO GALERIA*/
+  .galeria {
+    padding: 0px;
+  }
+  .galeria .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*FIN GALERIA*/
+  /*banner infornmativo inicio*/
+  section.banner .wrappbaner .row {
+    flex-direction: column;
+  }
+  section.banner .wrappbaner .row article.imgbanner {
+    width: 100%;
+    padding: 0px;
+  }
+  section.banner .wrappbaner .row article.txtdato {
+    width: 100%;
+  }
+  /*FIN banner infornmativo inicio*/
+  /*pagina somos*/
+  .contentcomunidad .childcomunidad {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    flex-direction: column;
+  }
+  .contentcomunidad .childcomunidad article.contentimagemcomunidad {
+    width: 100%;
+  }
+  .contentcomunidad .childcomunidad article.contentimagemcomunidad .comunidadfoto {
+    width: 100%;
+    height: auto;
+  }
+  .contentcomunidad .childcomunidad article.contenttextcomunidad {
+    width: 100%;
+    text-align: center;
+  }
+  .contentcomunidad .childcomunidad article.contenttextcomunidad a p.texbtn.ajustehablemos {
+    width: 60%;
+    margin: auto;
+  }
+  /*fin pagina somos*/
+  /*banner datas contacto general*/
+  section.banner.bannerpequeno {
+    margin: 20px;
+  }
+  section.banner.bannerpequeno .wrappbaner.ajsutedatoscontacto {
+    width: 100%;
+  }
+  section.banner.bannerpequeno .wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral {
+    flex-direction: column !important;
+  }
+  /*fin banner datas contacto general*/
+  /*AJUSTE CONTACTO*/
+  .wraappdatoscontacto {
+    margin: 10px 0px;
+  }
+  /*footer movil 768*/
+  footer {
+    height: auto;
+  }
+  footer .contenmenufooter .childlogobottomfooter {
+    text-align: center;
+  }
+  footer .contenmenufooter .childlogobottomfooter .logofooter {
+    width: 50%;
+  }
+  footer .contenmenufooter .contenrssfooter {
+    justify-content: center;
+  }
+}
+/*Mobile 567 px*/
+@media (max-width: 576px) {
+  /*Inicio portada*/
+  section.portada .childwrapp .bgrayossol {
+    scale: 4;
+  }
+  section.portada .childwrapp .bgassetongredientes {
+    display: none;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada h1.totituloprincipal {
+    font-size: 38px;
+    line-height: normal;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada h2.hatag {
+    font-size: 38px;
+    line-height: normal;
+  }
+  section.portada .childwrapp .contentwrapp .contentportada .textoportada .btn1 p.texbtn {
+    margin-top: 10px !important;
+  }
+  section.portada .childwrapp .contentwrapp .contentimgpizza img.pizzaimg {
+    width: 70%;
+  }
+  /*seccion productos*/
+  section.productos {
+    padding: 10px;
+    /*seccion tarjetas productos*/
+  }
+  section.productos .mensajeninicio .beforetitulo {
+    margin-top: 0px;
+  }
+  section.productos .mensajeninicio .titulosecion {
+    font-size: 48px;
+  }
+  section.productos .contentetarjetas {
+    margin-top: 10px;
+  }
+  section.productos .contentetarjetas .row .wrapptarjeta {
+    margin: 10px 0px;
+  }
+  /*seccion precios*/
+  section.cartaprecios {
+    margin-top: 20px;
+  }
+  section.cartaprecios .listadoprecios {
+    padding: 0px 20px;
+  }
+  /*fin seccion precios*/
+  /**seccion informativa*/
+  section.banner {
+    margin: 0px 0px 50px 0px;
+  }
+  section.banner .wrappbaner .row article.txtdato {
+    padding: 30px 30px;
+  }
+  /**fin seccion informativa*/
+  section.contentcomunidad .childcomunidad {
+    padding: 30px 30px;
+  }
+  section.contentcomunidad .childcomunidad article.contentimagemcomunidad {
+    padding: 0px;
+  }
+  /*pag somos seccion informativa*/
+  /*seccion datos contacto*/
+  article.txtdato.ajustedatogeneral {
+    padding: 20px;
+  }
+  section.banner.bannerpequeno .wrappbaner.ajsutedatoscontacto article.txtdato.ajustedatogeneral {
+    padding: 10px 10px !important;
+  }
+  /*seccion contacto*/
+  input[type=submit].customenviar {
+    width: 90%;
+    margin: auto;
+  }
+}
+/*Mobile 480*/
+@media (max-width: 480px) {
+  /*header menu*/
+  .contenmenu {
+    padding: 30px 10px;
+  }
+  .contenmenu ul.childmenu {
+    padding: 0px;
+  }
+  /*fin header mnenu*/
+  /*seccion portada*/
+  section.portada {
+    padding: 20px 50px;
+  }
+  /*fin seccion portada*/
+  /*Seccion producto*/
+  section.productos {
+    width: 100%;
+    padding: 30px;
+  }
+  /*fin Seccion producto*/
+  /*seccion precios*/
+  .childprecios {
+    padding: 30px 30px;
+  }
+}
+/*Mobile 380*/
+@media (max-width: 380px) {
+  .contenmenu.container {
+    padding: 20px 0px;
+  }
+  h2.titulosecion {
+    font-size: 30px;
+  }
+  section.productos {
+    padding: 20px;
+  }
+  hr.lineaprecio {
+    width: 50%;
+  }
+  .nombreproducto,
+  .valorproducto {
+    margin: 0px;
+  }
+}
+/*+=======================+
+  Fin SECCION medias querys custom
+  +=======================+*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+/*+=======================+
+PAGINA SECCION COMUNIDAD
++=======================+*/
+
+/*pots*/
+.contentcomunidad {
+  width: 100%;
+  .childcomunidad {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 80px;
+
+    article.contentimagemcomunidad {
+      width: 50%;
+      padding: 50px /*0px*/;
+      text-align: right;
+
+      .comunidadfoto {
+        width: 519px;
+        height: 616px;
+        flex-shrink: 0;
+      }
+    }
+
+    article.contenttextcomunidad {
+      width: 50%;
+      padding: 50px 0px;
+      h3.titulopequeño {
+        font-size: 20px;
+      }
+      .subtutulo.ajustesubtitulo.textpequeno {
+        font-size: 55px;
+      }
+      p.textComunidad {
+        color: #848383;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 30px;
+      }
+
+      a {
+        p.texbtn.ajustehablemos {
+          color: #fff;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          width: 22%;
+          margin-top: 100px;
+          background-color: #ec3d08;
+          text-align: center;
+          padding: 15px 10px;
+        }
+      }
+    }
+  }
+}
+
+/*+=======================+
+  FIN PAGINA COMUNIDAD
+  +=======================+*/

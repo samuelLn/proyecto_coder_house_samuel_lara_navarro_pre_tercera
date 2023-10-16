@@ -1,0 +1,31 @@
+/*>>>>>>>>>variables====+*/
+@import "variables";
+/*>>>>>>>>>Base general====+*/
+@import "generales";
+/*>>>>>>>>>Estructrura====+*/
+@import "header";
+
+/*>>>>>>>>>Componetes====+*/
+@import "portada";
+@import "portada_general";
+@import "tarjetasproductos";
+@import "cartaprecios";
+@import "galeriageneral";
+@import "bannerinformativo";
+@import "banner_datos_contacto_general";
+@import "formulario";
+
+/*>>>>>>>>>Secciones====+*/
+@import "pag_somos";
+@import "pag_comunidad";
+@import "pag_producto";
+@import "pag_contacto";
+
+/*>>>>>>>>>Estructrura====+*/
+@import "footer";
+/*>>>>>>>>>Eestilos de aytuda====+*/
+@import "estiloayuda";
+/*>>>>>>>>>Eestilos animacion====+*/
+@import "animaciones";
+/*>>>>>>>>>MediaQuerys====+*/
+@import "mediaquery";

@@ -1,0 +1,57 @@
+/*+=======================+
+SECCION FOOTER
++=======================+*/
+
+footer {
+  background-color: #ffb936;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+
+  .contenmenufooter {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 80px;
+    align-items: center;
+    box-sizing: border-box;
+
+    .childlogobottomfooter {
+      background-color: rgba(255, 0, 0, 0);
+
+      .logofooter {
+        width: 10%;
+      }
+    }
+
+    .contenrssfooter {
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      justify-content: flex-end;
+
+      .childrssfooter {
+        margin-left: 10px;
+
+        .iconorssfooter {
+          width: 22px;
+        }
+      }
+    }
+  }
+}
+
+/*.contenmenufooter {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 80px;
+    align-items: center;
+    box-sizing: border-box;
+}*/
+
+/*+=======================+
+  FIN SECCION FOOTER
+  +=======================+*/
