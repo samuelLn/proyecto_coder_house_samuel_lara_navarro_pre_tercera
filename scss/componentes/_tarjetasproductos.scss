@@ -2,104 +2,95 @@
 SECCION TARJETAS PRODUCTOS
 +=======================+*/
 section.productos {
-    text-align: center;
-    background-color: white;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+
+  /*Seccion mensaje inicio*/
+  .mensajeninicio {
     width: 100%;
-    
+    max-width: 1440px;
+    margin: auto;
 
-    /*Seccion mensaje inicio*/
-    .mensajeninicio {
-      width: 100%;
-      max-width: 1440px;
-      margin: auto;
-     
-      .beforetitulo {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 100px;
-      }
-
-
-      h2.titulosecion{}
-      
-      .bajadatitulo {
-        font-size: 20px;
-        color: #848383;
-        width: 60%;
-        margin: auto;
-      }
-    }
-  
-   /*Fin Seccion mensaje inicio*/
-
-   /*Seccion tarjetas productos*/
-    .contentetarjetas {
-      display: flex;
-      width: 100%;
-      max-width: 1440px;
-      margin: auto;
-      padding: 30px 80px;
-      align-items: center;
-      justify-content: center;
-      margin-top: 70px;
-
-      .wrapptarjeta {
-        background-color: #f8f8f8;
-        width: 320px;
-        padding: 80px 10px;
-        margin: 10px 20px;
-
-        .imgenproducto {
-          width: 100%;
-          max-width: 250px;
-        }
-
-        h2.description {
-          font-size: 24px;
-
-          span.precio {
-            color: #8c8b8b;
-          }
-        }
-
-
-        .estrellas {
-          width: 100%;
-          max-width: 100px;
-        }
-
-
-      }
-
-
-    }
-    /*Fin Seccion tarjetas productos*/
-
-
-     /*Seccion boton ver mas*/
-    article.contentbtnproducto {
-      text-align: center;
-      padding: 40px 10px;
-
-      a{
-        .texbtn {
-      margin: auto;
-      width: 10%;
-      color: whitesmoke;
-      background-color: #ec3d08;
-      text-align: center;
-      padding: 15px 10px;
-      text-transform: uppercase;
+    .beforetitulo {
       font-size: 20px;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h2.titulosecion {
+    }
+
+    .bajadatitulo {
+      font-size: 20px;
+      color: #848383;
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  /*Fin Seccion mensaje inicio*/
+
+  /*Seccion tarjetas productos*/
+  .contentetarjetas {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+    .wrapptarjeta {
+      background-color: #f8f8f8;
+      width: 320px;
+      padding: 80px 10px;
+      margin: 10px 20px;
+
+      .imgenproducto {
+        width: 100%;
+        max-width: 250px;
+      }
+
+      h2.description {
+        font-size: 24px;
+
+        span.precio {
+          color: #8c8b8b;
+        }
+      }
+
+      .estrellas {
+        width: 100%;
+        max-width: 100px;
       }
     }
-      
-      }
-
-     /*fin Seccion boton ver mas*/ 
-
   }
-  
-  /*+=======================+
+  /*Fin Seccion tarjetas productos*/
+
+  /*Seccion boton ver mas*/
+  article.contentbtnproducto {
+    text-align: center;
+    padding: 40px 10px;
+
+    a {
+      .texbtn {
+        margin: auto;
+        width: 10%;
+        color: whitesmoke;
+        background-color: #ec3d08;
+        text-align: center;
+        padding: 15px 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+      }
+    }
+  }
+
+  /*fin Seccion boton ver mas*/
+}
+
+/*+=======================+
   FIN SECCION TARJETAS PRODUCTOS
   +=======================+*/

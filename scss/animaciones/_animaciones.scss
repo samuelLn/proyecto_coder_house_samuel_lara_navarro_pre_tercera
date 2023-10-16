@@ -3,9 +3,12 @@ ANIMACIONES CSS
 +=======================+*/
 
 @keyframes rotacion_resplandor {
-    0%{ transform: rotate(0deg); }
-    100%{ transform: rotate(360deg);}
- }
- 
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
- /*animation: rotacion_resplandor 5s infinite linear; /* 5s es la duración de una rotación completa */
+/*animation: rotacion_resplandor 5s infinite linear; /* 5s es la duración de una rotación completa */

@@ -1,33 +1,32 @@
+/*INIO SECCION CONTACTO PEQUEÑA GENERAL*/
+section.banner.bannerpequeno {
+  margin: 75px 0px;
 
-  /*INIO SECCION CONTACTO PEQUEÑA GENERAL*/
-  section.banner.bannerpequeno {
-    margin: 75px 0px;
+  div.wrappbaner.ajsutedatoscontacto {
+    background-color: white;
 
-    div.wrappbaner.ajsutedatoscontacto {
-      background-color: white;
+    article.txtdato.ajustedatogeneral {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 10px 80px;
+      align-content: center;
+      justify-content: space-evenly;
+      align-items: center;
 
-      article.txtdato.ajustedatogeneral {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        padding: 10px 80px;
-        align-content: center;
-        justify-content: space-evenly;
-        align-items: center;
-        
-        .wraappdatoscontacto{
-            .datoIcono-general{width:7%;}
-            .textdato-general{font-size: 20px; 
-              p.textodato{margin: 0px 0px 0px 10px;}
-              }
-
-
+      .wraappdatoscontacto {
+        .datoIcono-general {
+          width: 7%;
+        }
+        .textdato-general {
+          font-size: 20px;
+          p.textodato {
+            margin: 0px 0px 0px 10px;
+          }
         }
       }
-
     }
-
-   
   }
-  
+}
+
 /*INIO SECCION CONTACTO PEQUEÑA GENERAL*/

@@ -5,32 +5,35 @@ SECCION medias querys custom
 /*+===TABLET====+*/
 /*Formato tablet mediun 1400 PX*/
 @media (max-width: 1400px) {
-
-
-/*Somos contenido*/
-.contentcomunidad{
-  .childcomunidad{
-    article.contentimagemcomunidad{
-      .comunidadfoto{
-      width: 100%;
-      height: auto;
+  /*Somos contenido*/
+  .contentcomunidad {
+    .childcomunidad {
+      article.contentimagemcomunidad {
+        .comunidadfoto {
+          width: 100%;
+          height: auto;
+        }
+      }
+      article.contenttextcomunidad {
       }
     }
-    article.contenttextcomunidad{}
   }
-}
-/*fin Somos contenido*/
-/*Contenido tarjetas*/
-.productos{
-  .mensajeninicio{}
-  .contentetarjetas.container{
-    .row{
-      .wrapptarjeta{width: auto;}
+  /*fin Somos contenido*/
+  /*Contenido tarjetas*/
+  .productos {
+    .mensajeninicio {
+    }
+    .contentetarjetas.container {
+      .row {
+        .wrapptarjeta {
+          width: auto;
+        }
+      }
+    }
+    .contentbtnproducto {
     }
   }
-  .contentbtnproducto{}
-}
-/*Contenido tarjetas*/
+  /*Contenido tarjetas*/
 }
 /*Formato tablet small  992px*/
 @media (max-width: 992px) {
@@ -73,72 +76,80 @@ SECCION medias querys custom
       }
     }
   }
- /* fin portada inicio*/
+  /* fin portada inicio*/
 
   /*Seccion SOMOS*/
 
   /*portada general*/
-  section.portada.ajustepórtada{
-  
-  .childwrapp{
-    .contentwrapp.ajustewrapp{
-      .contentportada.ajustegeneral{
-        .textoportada.ajustepagegeneral{
-          .totituloprincipal{}
-          .subtutulo ajustesubtitulo{}
-          a.btn1{
-            width: 30%;
-            margin: auto;
-            
+  section.portada.ajustepórtada {
+    .childwrapp {
+      .contentwrapp.ajustewrapp {
+        .contentportada.ajustegeneral {
+          .textoportada.ajustepagegeneral {
+            .totituloprincipal {
+            }
+            .subtutulo ajustesubtitulo {
+            }
+            a.btn1 {
+              width: 30%;
+              margin: auto;
+            }
           }
         }
       }
     }
   }
 
-}
+  /*fin portada general*/
 
- /*fin portada general*/
-
-/*Seccion SOMOS*/
-  section.contentcomunidad{
-    .childcomunidad{
-    .contentimagemcomunidad{
-      .comunidadfoto{
-        width: 100%;
-        height: auto;
+  /*Seccion SOMOS*/
+  section.contentcomunidad {
+    .childcomunidad {
+      .contentimagemcomunidad {
+        .comunidadfoto {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .contenttextcomunidad {
+        .titulopequeño {
+        }
+        .subtutulo.ajustesubtitulo.textpequeno {
+        }
+        p.textComunidad {
+        }
+        p.textComunidadDestacdo {
+          margin-top: 20px;
+        }
+        a {
+          p.texbtn.ajustehablemos {
+            margin-top: 10px;
+            width: 60%;
+          }
+        }
       }
     }
-    .contenttextcomunidad{
-      .titulopequeño{}
-      .subtutulo.ajustesubtitulo.textpequeno{}
-      p.textComunidad{}
-      p.textComunidadDestacdo{margin-top: 20px}
-      a{
-        p.texbtn.ajustehablemos{margin-top: 10px;
-        width: 60%;}
+  }
+  /*fin Seccion SOMOS*/
+
+  /*Tarjeta producto*/
+  .productos {
+    .mensajeninicio {
+    }
+    .contentetarjetas.container {
+      width: 100%;
+      max-width: 100%;
+    }
+    .contentbtnproducto {
+      a {
+        p.texbtn {
+          width: 60% !important;
+        }
       }
-    } 
-  
+    }
   }
-  }
-/*fin Seccion SOMOS*/
 
-/*Tarjeta producto*/
-.productos{
-  .mensajeninicio{}
-  .contentetarjetas.container{ width: 100%; max-width: 100%; }
-  .contentbtnproducto{
-    a{p.texbtn{
-      width: 60% !important;
-    }}
-  }
-}
-
-
-/*Fin Tarjeta producto*/
-
-
+  /*Fin Tarjeta producto*/
 }
 
 /*+===MOBILE====+*/
@@ -366,53 +377,49 @@ SECCION medias querys custom
 
   /*pagina somos*/
 
-  .contentcomunidad{
-      .childcomunidad{
-       width: 100%;
-       max-width: 100%;
-       padding: 50px; 
-       flex-direction: column;
-      article.contentimagemcomunidad{
+  .contentcomunidad {
+    .childcomunidad {
       width: 100%;
-      .comunidadfoto{
-      width: 100%;
-      height: auto;
+      max-width: 100%;
+      padding: 50px;
+      flex-direction: column;
+      article.contentimagemcomunidad {
+        width: 100%;
+        .comunidadfoto {
+          width: 100%;
+          height: auto;
+        }
+      }
+      article.contenttextcomunidad {
+        width: 100%;
+        text-align: center;
+        a {
+          p.texbtn.ajustehablemos {
+            width: 60%;
+            margin: auto;
+          }
+        }
       }
     }
-      article.contenttextcomunidad{
+  }
+
+  /*fin pagina somos*/
+
+  /*banner datas contacto general*/
+
+  section.banner.bannerpequeno {
+    margin: 20px;
+    .wrappbaner.ajsutedatoscontacto {
       width: 100%;
-      text-align: center;
-      a{ 
-      p.texbtn.ajustehablemos{
-        width: 60%;
-        margin: auto;
-
-      }}
-    }
+      article.txtdato.ajustedatogeneral {
+        flex-direction: column !important;
+      }
     }
   }
+  /*fin banner datas contacto general*/
 
-/*fin pagina somos*/
-
-/*banner datas contacto general*/
-
-section.banner.bannerpequeno {
-  margin: 20px;
-  .wrappbaner.ajsutedatoscontacto{
-    width: 100%;
-    article.txtdato.ajustedatogeneral{ 
-      flex-direction: column !important;
-      
-    }
-  }
-}
-/*fin banner datas contacto general*/
-
- 
-
-
-/*AJUSTE CONTACTO*/
- .wraappdatoscontacto {
+  /*AJUSTE CONTACTO*/
+  .wraappdatoscontacto {
     margin: 10px 0px;
   }
 
@@ -527,28 +534,29 @@ section.banner.bannerpequeno {
   }
   /**fin seccion informativa*/
 
-section.contentcomunidad{
-  .childcomunidad {
-    padding: 30px 30px;
+  section.contentcomunidad {
+    .childcomunidad {
+      padding: 30px 30px;
 
-    article.contentimagemcomunidad{padding: 0px;}
+      article.contentimagemcomunidad {
+        padding: 0px;
+      }
+    }
   }
-}
-/*pag somos seccion informativa*/
-
-
-  
+  /*pag somos seccion informativa*/
 
   /*seccion datos contacto*/
   article.txtdato.ajustedatogeneral {
     padding: 20px;
   }
 
-section.banner.bannerpequeno{
-  .wrappbaner.ajsutedatoscontacto{
-    article.txtdato.ajustedatogeneral{padding: 10px 10px !important;}
+  section.banner.bannerpequeno {
+    .wrappbaner.ajsutedatoscontacto {
+      article.txtdato.ajustedatogeneral {
+        padding: 10px 10px !important;
+      }
+    }
   }
-}
 
   /*seccion contacto*/
   input[type="submit"].customenviar {
@@ -565,7 +573,6 @@ section.banner.bannerpequeno{
       padding: 0px;
     }
   }
-  
 
   /*fin header mnenu*/
 
