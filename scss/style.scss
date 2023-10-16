@@ -1,31 +1,31 @@
 /*>>>>>>>>>variables====+*/
-@import "variables";
+@import "../scss/abstracts/variables";
 /*>>>>>>>>>Base general====+*/
-@import "generales";
+@import "../scss/estilos_base/generales";
 /*>>>>>>>>>Estructrura====+*/
-@import "header";
+@import "../scss/layout_sass/header";
 
 /*>>>>>>>>>Componetes====+*/
-@import "portada";
-@import "portada_general";
-@import "tarjetasproductos";
-@import "cartaprecios";
-@import "galeriageneral";
-@import "bannerinformativo";
+@import "../scss/componentes/portada";
+@import "../scss/componentes/";
+@import "../scss/componentes/tarjetasproductos";
+@import "../scss/componentes/";
+@import "../scss/componentes/galeriageneral";
+@import "../scss/componentes/bannerinformativo";
 @import "../scss/componentes/banner_datos_contacto_general";
-@import "formulario";
+@import "../scss/componentes/formulario";
 
 /*>>>>>>>>>Secciones====+*/
-@import "pag_somos";
-@import "pag_comunidad";
-@import "pag_producto";
-@import "pag_contacto";
+@import "../scss/pages_sass/pag_somos";
+@import "../scss/pages_sass/pag_comunidad";
+@import "../scss/pages_sass/pag_producto";
+@import "../scss/pages_sass/pag_contacto";
 
 /*>>>>>>>>>Estructrura====+*/
-@import "footer";
+@import "../scss/layout_sass/footer";
 /*>>>>>>>>>Eestilos de aytuda====+*/
-@import "estiloayuda";
+@import "../scss/estilos_base/estiloayuda";
 /*>>>>>>>>>Eestilos animacion====+*/
-@import "animaciones";
+@import "../scss/animaciones/animaciones";
 /*>>>>>>>>>MediaQuerys====+*/
-@import "mediaquery";
+@import "../scss/mediaquerys/mediaquery";
