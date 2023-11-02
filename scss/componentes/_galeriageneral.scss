@@ -4,8 +4,7 @@ SECCION GALERIA GRID
 .galeria {
   width: 100%;
   padding: 10px;
-
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -17,7 +16,6 @@ SECCION GALERIA GRID
     }
   }
 }
-
 /*+=======================+
   FIN SECCION GALERIA GRID 
   +=======================+*/

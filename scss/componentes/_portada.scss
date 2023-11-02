@@ -1,7 +1,6 @@
 /*+=======================+
 SECCION PORTADA
 +=======================+*/
-
 section.portada {
   background-color: $coloamarillo;
   position: relative;
@@ -10,15 +9,13 @@ section.portada {
   height: auto;
   margin: auto;
   overflow: hidden;
-
-  .childwrapp {
+.childwrapp {
     width: 100%;
     max-width: 1440px;
     position: relative;
     margin: auto;
     height: auto;
-
-    .bgrayossol {
+  .bgrayossol {
       padding: 5px;
       position: absolute;
       z-index: 1;
@@ -29,18 +26,15 @@ section.portada {
         animation: rotacion_resplandor 20s infinite linear; /*aniamacion rayo de sol*/
       }
     }
-
-    .bgassetongredientes {
+  .bgassetongredientes {
       padding: 120px;
       position: absolute;
       z-index: 2;
       width: 100%;
-
-      .ingredientes {
+     .ingredientes {
       }
     }
-
-    .contentwrapp {
+   .contentwrapp {
       display: flex;
       align-items: center;
       position: relative;
@@ -48,7 +42,6 @@ section.portada {
       height: 700px;
       padding: 30px 80px;
       z-index: 4;
-
       /*Estilo contenido portdas*/
       .contentportada {
         width: 30%;
@@ -56,15 +49,13 @@ section.portada {
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
-
-        .textoportada {
+       .textoportada {
           h1.totituloprincipal {
           }
           h2.hatag {
             font-size: 48px;
             line-height: 20px;
           }
-
           .textogeneral {
             font-size: 16px;
           }
@@ -73,8 +64,7 @@ section.portada {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-
-            .texbtn {
+           .texbtn {
               margin-top: 30px;
               color: white;
               background-color: $colorfondoboton;
@@ -87,25 +77,20 @@ section.portada {
           }
         }
       }
-
       .contentimgpizza {
         width: 40%;
         text-align: center;
-
         .pizzaimg {
           width: 100%;
         }
       }
     }
-
-    .contentwrapp.ajustewrapp {
+   .contentwrapp.ajustewrapp {
       height: auto;
     }
   }
 }
-
 /*Fin Estilo contenido portdas*/
-
 /*+=======================+
   FIN SECCION PORTADA
   +=======================+*/

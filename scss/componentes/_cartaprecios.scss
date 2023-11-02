@@ -6,62 +6,51 @@ section.cartaprecios {
   display: flex;
   width: 100%;
   margin-top: 100px;
-
-  .childprecios {
+.childprecios {
     width: 100%;
     max-width: 1440px;
     display: flex;
     margin: auto;
     padding: 80px 80px;
-
-    .imageningredientes {
+  .imageningredientes {
       width: 45%;
     }
-
-    .listadoprecios {
+  .listadoprecios {
       width: 55%;
       padding: 0px 50px;
-
-      .titulcarta {
+    .titulcarta {
         font-size: 48px;
         .hastagprecio {
           color: #f16115;
         }
       }
-
-      .cuadrodeprecios {
+     .cuadrodeprecios {
         .celdaprecio {
           display: block;
           margin-top: 25px;
-
-          .preciodetalle {
+       .preciodetalle {
             display: flex;
             /*background-color: aquamarine;*/
             align-items: center;
             justify-content: space-between;
-
-            p.nombreproducto,
+         p.nombreproducto,
             p.valorproducto {
               font-size: 20px;
               font-family: "Bebas Neue", sans-serif;
               text-transform: uppercase;
             }
-
-            hr.lineaprecio {
+         hr.lineaprecio {
               height: 2px;
               background-color: black;
               width: 78%;
             }
-
-            p.valorproducto {
+       p.valorproducto {
               color: $hastagpreciotext;
             }
           }
-
-          .ingredientestabla {
+       .ingredientestabla {
             margin-top: 10px;
-
-            p.descriptionprecios {
+        p.descriptionprecios {
               font-size: 16px;
               color: #848383;
             }
@@ -71,10 +60,8 @@ section.cartaprecios {
     }
   }
 }
-
 /*.cuadrodeprecios {
   }*/
-
 /*+=======================+
   FIN SECCION CARTA DE PRECIOS
   +=======================+*/
