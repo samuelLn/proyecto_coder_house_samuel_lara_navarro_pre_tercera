@@ -1,14 +1,12 @@
 /*+=======================+
 SECCION HEADER
 +=======================+*/
-
 header {
   background-color: $coloamarillo;
   padding: 5px;
   width: 100%;
   height: 100px;
-
-  /*Estilos menu principoal Desktop*/
+ /*Estilos menu principoal Desktop*/
   .contenmenu {
     display: flex;
     width: 100%;
@@ -16,8 +14,7 @@ header {
     margin: auto;
     padding: 30px 80px;
     align-items: center;
-
-    /*contenedor logo*/
+ /*contenedor logo*/
     .childlogotop {
       /*Estilo logo top header*/
       .logotop {
@@ -25,14 +22,12 @@ header {
       }
       /*Fin estilo logo top header*/
     }
-
-    /*contenedor menu principal*/
+   /*contenedor menu principal*/
     .childmenuheader {
       /*menu main*/
       .navmain {
         display: flex;
         justify-content: flex-end;
-
         ul.childmenu {
           list-style: none;
           display: flex;
@@ -40,7 +35,6 @@ header {
           font-size: 18px;
           align-items: center;
           margin: 0px;
-
           li.item {
             padding: 5px;
             letter-spacing: 1px;
@@ -52,7 +46,6 @@ header {
         }
       }
       /*fin contenedor menu principal*/
-
       /*Estilo movil menu*/
       .movilcustom {
         display: none;
@@ -60,18 +53,15 @@ header {
       /*Fin Estilo movil menu*/
     }
     /*FIN Estilo movil menu*/
-
-    /*Estilos zona rrss top*/
+   /*Estilos zona rrss top*/
     .contenrss {
       display: flex;
       align-items: center;
       padding: 2px;
       justify-content: flex-end;
-
-      .childrss {
+     .childrss {
         margin-left: 10px;
-
-        .iconorss {
+       .iconorss {
           width: 22px;
         }
       }
@@ -80,7 +70,6 @@ header {
   }
   /* Fin estilos menu principoal Desktop*/
 }
-
 /*+=======================+
   FIN SECCION HEADER
   +=======================+*/
