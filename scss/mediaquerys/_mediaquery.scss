@@ -1,7 +1,6 @@
 /*+=======================+
 SECCION medias querys custom
 +=======================+*/
-
 /*+===TABLET====+*/
 /*Formato tablet mediun 1400 PX*/
 @media (max-width: 1400px) {
@@ -38,21 +37,18 @@ SECCION medias querys custom
 /*Formato tablet small  992px*/
 @media (max-width: 992px) {
   /* portada inicio*/
-
-  .childwrapp {
+.childwrapp {
     .bgrayossol {
       scale: 2;
       .rayossolo {
         margin-top: -84px !important;
       }
     }
-
-    .contentwrapp {
+  .contentwrapp {
       background-color: rgba(255, 255, 255, 0);
       padding: 10px !important;
       max-width: 1440px;
-
-      .contentportada {
+  .contentportada {
         background: rgba(255, 255, 255, 0);
         .textoportada {
           h1.totituloprincipal {
@@ -77,10 +73,8 @@ SECCION medias querys custom
     }
   }
   /* fin portada inicio*/
-
-  /*Seccion SOMOS*/
-
-  /*portada general*/
+/*Seccion SOMOS*/
+/*portada general*/
   section.portada.ajustepórtada {
     .childwrapp {
       .contentwrapp.ajustewrapp {
@@ -99,10 +93,8 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*fin portada general*/
-
-  /*Seccion SOMOS*/
+/*fin portada general*/
+/*Seccion SOMOS*/
   section.contentcomunidad {
     .childcomunidad {
       .contentimagemcomunidad {
@@ -131,8 +123,7 @@ SECCION medias querys custom
     }
   }
   /*fin Seccion SOMOS*/
-
-  /*Tarjeta producto*/
+/*Tarjeta producto*/
   .productos {
     .mensajeninicio {
     }
@@ -148,15 +139,14 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*Fin Tarjeta producto*/
+/*Fin Tarjeta producto*/
 }
-
 /*+===MOBILE====+*/
 @media (max-width: 768px) {
   /*header*/
   header {
     height: auto;
+    position: relative;
     .contenmenu {
       width: 100%;
       max-width: 100%;
@@ -164,16 +154,14 @@ SECCION medias querys custom
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        .childlogotop {
+      .childlogotop {
           text-align: center;
           width: 100%;
           .logotop {
             width: 30%;
           }
         }
-
-        .childmenuheader {
+     .childmenuheader {
           /*Menu desktop*/
           .navmain {
             justify-content: center;
@@ -184,20 +172,16 @@ SECCION medias querys custom
               }
             }
           }
-
-          /*menu movil*/
+      /*menu movil*/
           .movilcustom {
             display: block;
-
-            .container-fluid {
+           .container-fluid {
               justify-content: center;
-
-              .navbar-toggler {
+        .navbar-toggler {
                 border: black solid 2px;
                 margin: 10px 0px;
               }
-
-              .navbar-collapse {
+         .navbar-collapse {
                 background-color: rgba(255, 255, 255, 0);
                 padding: 10px;
                 border: solid 2px rgba(0, 0, 0, 0.251);
@@ -206,8 +190,7 @@ SECCION medias querys custom
           }
           /*fin menu movil*/
         }
-
-        /*Estilo contenedor top RSS*/
+   /*Estilo contenedor top RSS*/
         .contenrss {
           justify-content: center;
         }
@@ -216,15 +199,12 @@ SECCION medias querys custom
     }
   }
   /*Fin Header*/
-
-  /*+===============================================================+*/
-
-  /*Portada inicio*/
+ /*+===============================================================+*/
+/*Portada inicio*/
   section.portada {
     height: auto;
     padding: 50px;
-
-    /*contnenedor interio general*/
+  /*contnenedor interio general*/
     .childwrapp {
       width: 100%;
       max-width: 100%;
@@ -236,8 +216,7 @@ SECCION medias querys custom
           margin-top: 10px !important;
         }
       }
-
-      .bgassetongredientes {
+    .bgassetongredientes {
         position: absolute;
         padding: 0px;
         display: none;
@@ -245,14 +224,12 @@ SECCION medias querys custom
         }
       }
       /*================ fin  Fondo portada==============*/
-
-      /*================ Inicio contenido portda==============*/
+     /*================ Inicio contenido portda==============*/
       .contentwrapp {
         position: relative;
         height: auto;
         padding: 0px;
-
-        .contentportada {
+         .contentportada {
           width: 100%;
           display: block;
           .textoportada {
@@ -275,7 +252,6 @@ SECCION medias querys custom
             }
           }
         }
-
         .contentimgpizza {
           width: 100%;
           .pizzaimg {
@@ -285,13 +261,10 @@ SECCION medias querys custom
       }
     } /*fin contnenedor interio general*/
   } /*fin portada*/
-
-  /*+============================+ Seccion producto inicio +============================+*/
-
-  section.productos {
+/*+============================+ Seccion producto inicio +============================+*/
+section.productos {
     padding: 50px;
-
-    .mensajeninicio {
+   .mensajeninicio {
       h3.beforetitulo {
         margin-top: 0px;
       }
@@ -301,8 +274,7 @@ SECCION medias querys custom
         width: 100%;
       }
     }
-
-    .contentetarjetas.container {
+  .contentetarjetas.container {
       padding: 20px;
       .row {
         .wrapptarjeta {
@@ -310,8 +282,7 @@ SECCION medias querys custom
         }
       }
     }
-
-    .contentbtnproducto {
+  .contentbtnproducto {
       a {
         p.texbtn {
           width: 60%;
@@ -319,17 +290,14 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*Seccion carta de precios*/
+/*Seccion carta de precios*/
   section.cartaprecios {
     margin-top: 0px;
-
-    .childprecios {
+  .childprecios {
       width: 100%;
       max-width: 100%;
       padding: 50px 10px;
-
-      .row {
+    .row {
         flex-direction: column;
         .imageningredientes {
           width: 100%;
@@ -343,10 +311,8 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*fin Seccion carta de precios*/
-
-  /*INICIO GALERIA*/
+/*fin Seccion carta de precios*/
+ /*INICIO GALERIA*/
   .galeria {
     padding: 0px;
     .grid-container {
@@ -354,10 +320,8 @@ SECCION medias querys custom
     }
   }
   /*FIN GALERIA*/
-
-  /*banner infornmativo inicio*/
-
-  section.banner {
+/*banner infornmativo inicio*/
+section.banner {
     .wrappbaner {
       .row {
         flex-direction: column;
@@ -372,12 +336,9 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*FIN banner infornmativo inicio*/
-
-  /*pagina somos*/
-
-  .contentcomunidad {
+/*FIN banner infornmativo inicio*/
+/*pagina somos*/
+.contentcomunidad {
     .childcomunidad {
       width: 100%;
       max-width: 100%;
@@ -402,12 +363,9 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*fin pagina somos*/
-
-  /*banner datas contacto general*/
-
-  section.banner.bannerpequeno {
+/*fin pagina somos*/
+ /*banner datas contacto general*/
+section.banner.bannerpequeno {
     margin: 20px;
     .wrappbaner.ajsutedatoscontacto {
       width: 100%;
@@ -417,13 +375,11 @@ SECCION medias querys custom
     }
   }
   /*fin banner datas contacto general*/
-
-  /*AJUSTE CONTACTO*/
+ /*AJUSTE CONTACTO*/
   .wraappdatoscontacto {
     margin: 10px 0px;
   }
-
-  /*footer movil 768*/
+/*footer movil 768*/
   footer {
     height: auto;
     .contenmenufooter {
@@ -434,8 +390,7 @@ SECCION medias querys custom
           width: 50%;
         }
       }
-
-      .contenrssfooter {
+   .contenrssfooter {
         justify-content: center;
       }
     }
@@ -444,17 +399,14 @@ SECCION medias querys custom
 /*Mobile 567 px*/
 @media (max-width: 576px) {
   /*Inicio portada*/
-
-  section.portada {
+section.portada {
     .childwrapp {
       .bgrayossol {
         scale: 4;
       }
-
-      .bgassetongredientes {
+     .bgassetongredientes {
         display: none;
       }
-
       .contentwrapp {
         .contentportada {
           .textoportada {
@@ -466,16 +418,14 @@ SECCION medias querys custom
               font-size: 38px;
               line-height: normal;
             }
-
-            .btn1 {
+           .btn1 {
               p.texbtn {
                 margin-top: 10px !important;
               }
             }
           }
         }
-
-        .contentimgpizza {
+    .contentimgpizza {
           img.pizzaimg {
             width: 70%;
           }
@@ -483,22 +433,18 @@ SECCION medias querys custom
       }
     }
   }
-
-  /*seccion productos*/
-
-  section.productos {
+/*seccion productos*/
+section.productos {
     padding: 10px;
     .mensajeninicio {
       .beforetitulo {
         margin-top: 0px;
       }
-
-      .titulosecion {
+     .titulosecion {
         font-size: 48px;
       }
     }
-
-    /*seccion tarjetas productos*/
+  /*seccion tarjetas productos*/
     .contentetarjetas {
       margin-top: 10px;
       .row {
@@ -510,8 +456,7 @@ SECCION medias querys custom
     .contentbtnproducto {
     }
   }
-
-  /*seccion precios*/
+ /*seccion precios*/
   section.cartaprecios {
     margin-top: 20px;
     .listadoprecios {
@@ -519,10 +464,8 @@ SECCION medias querys custom
     }
   }
   /*fin seccion precios*/
-
-  /**seccion informativa*/
-
-  section.banner {
+ /**seccion informativa*/
+section.banner {
     margin: 0px 0px 50px 0px;
     .wrappbaner {
       .row {
@@ -533,32 +476,27 @@ SECCION medias querys custom
     }
   }
   /**fin seccion informativa*/
-
-  section.contentcomunidad {
+ section.contentcomunidad {
     .childcomunidad {
       padding: 30px 30px;
-
-      article.contentimagemcomunidad {
+    article.contentimagemcomunidad {
         padding: 0px;
       }
     }
   }
   /*pag somos seccion informativa*/
-
-  /*seccion datos contacto*/
+/*seccion datos contacto*/
   article.txtdato.ajustedatogeneral {
     padding: 20px;
   }
-
-  section.banner.bannerpequeno {
+ section.banner.bannerpequeno {
     .wrappbaner.ajsutedatoscontacto {
       article.txtdato.ajustedatogeneral {
         padding: 10px 10px !important;
       }
     }
   }
-
-  /*seccion contacto*/
+/*seccion contacto*/
   input[type="submit"].customenviar {
     width: 90%;
     margin: auto;
@@ -573,23 +511,19 @@ SECCION medias querys custom
       padding: 0px;
     }
   }
-
-  /*fin header mnenu*/
-
-  /*seccion portada*/
+/*fin header mnenu*/
+/*seccion portada*/
   section.portada {
     padding: 20px 50px;
   }
   /*fin seccion portada*/
-
-  /*Seccion producto*/
+/*Seccion producto*/
   section.productos {
     width: 100%;
     padding: 30px;
   }
   /*fin Seccion producto*/
-
-  /*seccion precios*/
+/*seccion precios*/
   .childprecios {
     padding: 30px 30px;
   }
@@ -599,8 +533,7 @@ SECCION medias querys custom
   .contenmenu.container {
     padding: 20px 0px;
   }
-
-  h2.titulosecion {
+ h2.titulosecion {
     font-size: 30px;
   }
   section.productos {

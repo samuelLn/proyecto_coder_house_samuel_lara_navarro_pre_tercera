@@ -5,3 +5,7 @@ Mixins
 	display: flex;
     flex-direction: column;
 }
+@mixin fixed-position{
+    position: fixed;
+    z-index: 10;
+}
